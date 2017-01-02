@@ -12,6 +12,9 @@
 		5A16FD551E13097600157728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A16FD541E13097600157728 /* Assets.xcassets */; };
 		5A16FD581E13097600157728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A16FD561E13097600157728 /* LaunchScreen.storyboard */; };
 		5A16FD601E130B0A00157728 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16FD5F1E130B0A00157728 /* HomeController.swift */; };
+		5AB5EB1B1E1AE0CC00188E63 /* HomeDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB5EB1A1E1AE0CC00188E63 /* HomeDatasourceController.swift */; };
+		5AB5EB201E1AE9AE00188E63 /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB5EB1F1E1AE9AE00188E63 /* Cells.swift */; };
+		5AB5EB221E1AEA0700188E63 /* HomeDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB5EB211E1AEA0700188E63 /* HomeDatasource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		5A16FD571E13097600157728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A16FD591E13097600157728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A16FD5F1E130B0A00157728 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		5AB5EB1A1E1AE0CC00188E63 /* HomeDatasourceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDatasourceController.swift; sourceTree = "<group>"; };
+		5AB5EB1F1E1AE9AE00188E63 /* Cells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
+		5AB5EB211E1AEA0700188E63 /* HomeDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDatasource.swift; sourceTree = "<group>"; };
 		5C1BBDBAB79BA370DA4376D8 /* Pods_TwitterLBTA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitterLBTA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -67,6 +73,9 @@
 		5A16FD4C1E13097600157728 /* TwitterLBTA */ = {
 			isa = PBXGroup;
 			children = (
+				5AB5EB1E1E1AE95200188E63 /* View */,
+				5AB5EB1D1E1AE94000188E63 /* Model */,
+				5AB5EB1C1E1AE92500188E63 /* Controller */,
 				5A16FD4D1E13097600157728 /* AppDelegate.swift */,
 				5A16FD5F1E130B0A00157728 /* HomeController.swift */,
 				5A16FD541E13097600157728 /* Assets.xcassets */,
@@ -74,6 +83,30 @@
 				5A16FD591E13097600157728 /* Info.plist */,
 			);
 			path = TwitterLBTA;
+			sourceTree = "<group>";
+		};
+		5AB5EB1C1E1AE92500188E63 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5AB5EB1A1E1AE0CC00188E63 /* HomeDatasourceController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5AB5EB1D1E1AE94000188E63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5AB5EB211E1AEA0700188E63 /* HomeDatasource.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5AB5EB1E1E1AE95200188E63 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5AB5EB1F1E1AE9AE00188E63 /* Cells.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		B8A7CD0707AD9F0F17B6FD50 /* Pods */ = {
@@ -208,7 +241,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AB5EB221E1AEA0700188E63 /* HomeDatasource.swift in Sources */,
 				5A16FD4E1E13097600157728 /* AppDelegate.swift in Sources */,
+				5AB5EB201E1AE9AE00188E63 /* Cells.swift in Sources */,
+				5AB5EB1B1E1AE0CC00188E63 /* HomeDatasourceController.swift in Sources */,
 				5A16FD601E130B0A00157728 /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
