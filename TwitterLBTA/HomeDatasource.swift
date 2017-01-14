@@ -12,9 +12,11 @@ class HomeDatasource: Datasource {
     
     let users: [User] = {
         let stevenUser = User(name: "Stephan Wegmann", username: "@articYoulate", bioText: "Mehr Text", profileImage: #imageLiteral(resourceName: "aston"))
-        let annetteUser = User(name: "Annette Wegmann", username: "Mutter", bioText: "Annette hat ein neues iPhone!", profileImage: #imageLiteral(resourceName: "annette"))
+        let annetteUser = User(name: "Annette Wegmann", username: "@Mutter", bioText: "Annette hat ein neues iPhone! Und noch vieles mehr zu Weihnachten geschenkt bekommen!", profileImage: #imageLiteral(resourceName: "annette"))
         
-        return [stevenUser, annetteUser]
+        let philippUser = User(name: "Philipp Wegmann", username: "@philippus", bioText: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.", profileImage: #imageLiteral(resourceName: "aston"))
+        
+        return [stevenUser, annetteUser, philippUser]
             
         }()
     
