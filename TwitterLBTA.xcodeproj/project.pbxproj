@@ -18,6 +18,7 @@
 		5AB5EB1B1E1AE0CC00188E63 /* HomeDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB5EB1A1E1AE0CC00188E63 /* HomeDatasourceController.swift */; };
 		5AB5EB201E1AE9AE00188E63 /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB5EB1F1E1AE9AE00188E63 /* Cells.swift */; };
 		5AB5EB221E1AEA0700188E63 /* HomeDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB5EB211E1AEA0700188E63 /* HomeDatasource.swift */; };
+		5AE553421E315C5200181D46 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE553411E315C5200181D46 /* TweetCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		5AB5EB1A1E1AE0CC00188E63 /* HomeDatasourceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDatasourceController.swift; sourceTree = "<group>"; };
 		5AB5EB1F1E1AE9AE00188E63 /* Cells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
 		5AB5EB211E1AEA0700188E63 /* HomeDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDatasource.swift; sourceTree = "<group>"; };
+		5AE553411E315C5200181D46 /* TweetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
 		5C1BBDBAB79BA370DA4376D8 /* Pods_TwitterLBTA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitterLBTA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -114,6 +116,7 @@
 			children = (
 				5AB5EB1F1E1AE9AE00188E63 /* Cells.swift */,
 				5AB4032C1E25823300A5B712 /* UserCell.swift */,
+				5AE553411E315C5200181D46 /* TweetCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				5AB5EB221E1AEA0700188E63 /* HomeDatasource.swift in Sources */,
 				5A16FD4E1E13097600157728 /* AppDelegate.swift in Sources */,
 				5AB4032B1E25799B00A5B712 /* User.swift in Sources */,
+				5AE553421E315C5200181D46 /* TweetCell.swift in Sources */,
 				5AB5EB201E1AE9AE00188E63 /* Cells.swift in Sources */,
 				5AB5EB1B1E1AE0CC00188E63 /* HomeDatasourceController.swift in Sources */,
 				5A167C871E2E9AA400972FFF /* HomeDatasourceController+navbar.swift in Sources */,

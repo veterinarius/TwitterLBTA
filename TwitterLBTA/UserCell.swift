@@ -31,6 +31,7 @@ class UserCell: DatasourceCell {
         imageView.layer.masksToBounds = true
         return imageView
     }()
+
     
     let nameLabel: UILabel = {
         let label = UILabel()
@@ -73,6 +74,8 @@ class UserCell: DatasourceCell {
     
     override func setupViews() {
         super.setupViews()
+        
+        backgroundColor = .white
         
         separatorLineView.isHidden = false
         separatorLineView.backgroundColor = UIColor(r: 230, g: 230, b: 230)
