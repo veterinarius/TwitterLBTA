@@ -13,6 +13,7 @@
 		5A16FD551E13097600157728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A16FD541E13097600157728 /* Assets.xcassets */; };
 		5A16FD581E13097600157728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A16FD561E13097600157728 /* LaunchScreen.storyboard */; };
 		5A16FD601E130B0A00157728 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16FD5F1E130B0A00157728 /* HomeController.swift */; };
+		5A811D271E3D159800A8B910 /* tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A811D261E3D159800A8B910 /* tweet.swift */; };
 		5AB4032B1E25799B00A5B712 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB4032A1E25799B00A5B712 /* User.swift */; };
 		5AB4032D1E25823300A5B712 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB4032C1E25823300A5B712 /* UserCell.swift */; };
 		5AB5EB1B1E1AE0CC00188E63 /* HomeDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB5EB1A1E1AE0CC00188E63 /* HomeDatasourceController.swift */; };
@@ -31,6 +32,7 @@
 		5A16FD571E13097600157728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A16FD591E13097600157728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A16FD5F1E130B0A00157728 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		5A811D261E3D159800A8B910 /* tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tweet.swift; sourceTree = "<group>"; };
 		5AB4032A1E25799B00A5B712 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5AB4032C1E25823300A5B712 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		5AB5EB1A1E1AE0CC00188E63 /* HomeDatasourceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDatasourceController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			children = (
 				5AB5EB211E1AEA0700188E63 /* HomeDatasource.swift */,
 				5AB4032A1E25799B00A5B712 /* User.swift */,
+				5A811D261E3D159800A8B910 /* tweet.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AB5EB221E1AEA0700188E63 /* HomeDatasource.swift in Sources */,
+				5A811D271E3D159800A8B910 /* tweet.swift in Sources */,
 				5A16FD4E1E13097600157728 /* AppDelegate.swift in Sources */,
 				5AB4032B1E25799B00A5B712 /* User.swift in Sources */,
 				5AE553421E315C5200181D46 /* TweetCell.swift in Sources */,
